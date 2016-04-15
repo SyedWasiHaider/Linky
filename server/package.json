@@ -1,0 +1,20 @@
+{
+  "name": "linky",
+  "version": "0.0.1",
+  "description": "A simple URL shortener web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "Syed Wasi Haider",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "redis": "^2.5.3",
+    "restify": "^4.0.4"
+  }
+}
